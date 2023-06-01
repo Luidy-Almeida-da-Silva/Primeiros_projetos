@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: rgb(0, 255, 0);
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: black;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(0, 255, 0);
+}
+
+.logo{
+    color: rgb(0, 255, 0);  
+}
+
+.logo h2{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    color: rgb(0, 122, 0);
+}
+
+.btn-menu{
+    padding: 10px 15px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.btn-menu:hover{
+    border: 1px solid rgb(0, 36, 0);
+}
+
+/*
+section .main
+*/
+
+.main-cta{
+    width: 100%;
+    padding: 70px 0px 70px 0;
+    text-align: center;
+}
+
+.main-cta h2{
+    font-size: 45px;
+}
+
+.main-cta p{
+    font-size: 19px;
+    margin: 10px 0;
+
+}
+
+.main-cta button{
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid green;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    border-radius: 10px;
+    width: 23%;
+    margin-right: 2%;
+    border: 1px solid green;
+    padding: 50px 20px;
+}
+
+.diferencial-single i{
+    font-size: 23px;
+}
+
+.diferencial-single h2{
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.diferencial-single p{
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+/*
+section .sobre
+*/
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+    margin: 200px 0px 20px 0px;
+}
+
+.chamada-sobre h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.chamada-sobre p{
+    font-size: 18px;
+}
+
+.p-sobre{
+    display: flex;
+}
+
+.pp-sobre{
+    width: 48%;
+    margin-right: 2%;
+    margin: 20px 0 100px 0;
+}
+
+.pp-sobre i{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.pp-sobre button{
+    cursor: pointer;
+    border: 1px solid green;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/*
+section .final
+*/
+
+.ultimo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tp{
+    width: 25%;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.tp h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.tp p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .logo h2{
+        font-size: 30px;
+    }
+
+    .menu{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .btn-menu{
+        padding: 5px 20px;
+    }
+
+    .p-sobre{
+        width: 100%;
+        display: block;
+    }
+
+    .pp-sobre{
+        width: 100%;
+        text-align: center;  
+    }
+}

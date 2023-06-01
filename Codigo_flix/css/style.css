@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    color: rgb(196, 22, 22);
+}
+.cor1{
+    background-color: rgb(196, 22, 22);
+}
+.d-flex{
+    text-align: right;
+}
+.cor2 a{
+    color: black;
+}
+#carouselExampleSlidesOnly{
+    margin: 2% 15%;
+    max-width: 80vw;
+}
